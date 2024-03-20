@@ -1,9 +1,15 @@
 #!/usr/bin/bash
 
 _disciplines=("12428-incode_2024.1")
+_disciplines_files=(".info")
 
-# Create
 for _d in ${_disciplines[@]}; do
   mkdir -p "$PWD/$_d";
-  mkdir -p "$PWD/$_d/homework";
+  mkdir -p "$PWD/$_d/homeworks";
+
+  for _f in ${_disciplines_files[@]}; do
+    if ! [[ -r "$PWD/$_d/$_f" ]]; then
+      cp "$PWD/.disciplines_files/$_f" "$PWD/$_d";
+    fi
+  done
 done
