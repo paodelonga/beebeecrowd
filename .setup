@@ -1,5 +1,0 @@
-#!/usr/bin/bash
-
-# Primary folder structure
-mkdir -p "$PWD/academic/disciplines"
-mkdir -p "$PWD/academic/disciplines/.disciplines_files"
