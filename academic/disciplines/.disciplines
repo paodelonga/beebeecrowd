@@ -1,0 +1,9 @@
+#!/usr/bin/bash
+
+_disciplines=("12428-incode_2024.1")
+
+# Create
+for _d in ${_disciplines[@]}; do
+  mkdir -p "$PWD/$_d";
+  mkdir -p "$PWD/$_d/homework";
+done

@@ -1,0 +1,4 @@
+#!/usr/bin/bash
+
+# Primary folder structure
+mkdir -p "$PWD/academic/disciplines"
