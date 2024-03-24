@@ -1,9 +1,12 @@
 # Bee[Beecrowd](https://judge.beecrowd.com/)
 
-Por que nao automatizar?
+_Por que nao automatizar?_
 
-> Eu gosto de BASH? AMO! Mas nem tudo pode ser feito com BASH e calabresa, depois eu faco com Python :p
+> Meu objetivo com este repositório é documentar o que for feito na plataforma beecrowd, para isso eu gostaria
+de automatizar o processo utilizando shell scripting, mas acho que a melhor escolha para essa tarefa seria utilizar
+Python... não foi desta vez, BASH.
+
 <div align="center">
-  <!-- <img src="./llama-banner.gif" title="Banner" alt="A minecraft llama jumping" width="80"> -->
-  <img src="./cat.svg" title="Banner" alt="A cat balancing on a straight rope" width="82%">
+  <img src="./banner-llama.gif" title="Banner" alt="A jumping llama from Minecraft" width="80">
+  <!-- <img src="./banner-cat.svg" title="Banner" alt="A kitten sitting on a stretched clothesline" width="82%"> -->
 <div>
