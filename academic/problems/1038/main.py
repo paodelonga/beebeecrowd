@@ -20,6 +20,18 @@ O arquivo de entrada contém dois valores inteiros correspondentes ao código e 
 O arquivo de saída deve conter a mensagem "Total: R$ " seguido pelo valor a ser pago, com 2 casas após o ponto decimal.
 """
 
-"""
-"""
 
+
+items = {
+    1: 1.50,
+    2: 2.00,
+    3: 4.00,
+    4: 4.50,
+    5: 5.00
+}
+
+
+idx = int(input())
+qtd = int(input())
+
+print(f"Total: R$ {(items[idx] * qtd):.2f}")
